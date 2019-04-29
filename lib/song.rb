@@ -10,4 +10,3 @@ class Song
     @genre = genre
     @@song_artist << @song
     @@song_genre << @genre
-    
