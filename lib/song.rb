@@ -13,9 +13,6 @@ class Song
     @@genres << @genre
   end
 
-  def self.count
-    @@count = @name.length
-  end
 
   def self.genre_count
     genre_count = {}
