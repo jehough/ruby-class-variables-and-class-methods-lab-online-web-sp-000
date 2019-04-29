@@ -11,9 +11,20 @@ class Song
     @@song << @name
     @@artists << @artist
     @@genres << @genre
+    @@count += 1
   end
 
-
+  def self.count
+    @@count
+  end
+  def self.artists
+    @@artists
+  end
+  
+  def self.genres
+    @@genres
+  end
+   
   def self.genre_count
     genre_count = {}
     @@genres.each do |genre|
